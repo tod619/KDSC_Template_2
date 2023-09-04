@@ -244,6 +244,17 @@ Navbar
   }
 }
 
+/* Fixed Navber */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--clr-white);
+  z-index: 2;
+  box-shadow: var(--light-shadow);
+}
+
 /*
 =============== 
 Sidebar
@@ -307,6 +318,10 @@ Hero
 ===============
 */
 /* underline added to globals */
+.hero {
+  background-color: red;
+  min-height: 300vh;
+}
 
 /*
 =============== 
