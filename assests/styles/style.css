@@ -492,30 +492,43 @@ Training
 Projects
 ===============
 */
+.projects {
+  background-color: var(--clr-white);
+}
 
-/*
-=============== 
-Connect
-===============
-*/
+.projects-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 3rem 1rem;
+}
 
-/*
-=============== 
-Skills
-===============
-*/
-/*
-=============== 
-Timeline
-===============
-*/
+.card {
+  height: 27rem;
+  background-color: var(--clr-grey-10);
 
-/*
-=============== 
-Blog
-===============
-*/
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: all 0.4s;
+}
 
+.card:hover {
+  transform: translateY(-1.2rem);
+}
+
+.card img {
+  height: 13rem;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 1rem 1.5rem;
+}
+
+.card-info h4 {
+  color: var(--clr-grey-1);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
 /*
 =============== 
 Footer
