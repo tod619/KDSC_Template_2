@@ -529,6 +529,18 @@ Projects
   font-size: 1.3rem;
   text-transform: uppercase;
 }
+
+.logos {
+  display: flex;
+  margin: 4rem auto 0 auto;
+  width: 90%;
+  overflow: hidden;
+}
+
+.logos img {
+  width: 10rem;
+  opacity: 80%;
+}
 /*
 =============== 
 Footer
