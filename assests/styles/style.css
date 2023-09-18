@@ -531,15 +531,59 @@ Projects
 }
 
 .logos {
-  display: flex;
-  margin: 4rem auto 0 auto;
+  margin: 6rem auto 4rem auto;
   width: 90%;
   overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  display: flex;
+}
+
+.logos::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15.6rem;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #fff);
+}
+
+.logos::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15.6rem;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: 35s slide infinite linear;
 }
 
 .logos img {
   width: 10rem;
-  opacity: 80%;
+  opacity: 95%;
+  margin: 0 2rem;
+}
+
+@keyframes slide {
+  from {
+    transfrom: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 /*
 =============== 
