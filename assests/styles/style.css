@@ -575,6 +575,13 @@ Projects
   width: 10rem;
   opacity: 95%;
   margin: 0 2rem;
+  filter: grayscale(100%);
+  transition: all 0.5s linear;
+}
+
+.logos img:hover {
+  filter: grayscale(0);
+  scale: 1.03;
 }
 
 @keyframes slide {
