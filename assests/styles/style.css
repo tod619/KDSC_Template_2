@@ -20,9 +20,9 @@ Variables
   /* primary/main color */
   --clr-primary-5: hsl(42, 78%, 60%);
   /* lighter shades of primary color */
-  /* --clr-primary-6: hsl(43, 89%, 70%);
+  /* --clr-primary-6: hsl(43, 89%, 70%); */
   --clr-primary-7: hsl(43, 90%, 76%);
-  --clr-primary-8: hsl(45, 86%, 81%);
+  /* --clr-primary-8: hsl(45, 86%, 81%);
   --clr-primary-9: hsl(45, 90%, 88%);
   --clr-primary-10: hsl(45, 100%, 96%); */
   /* --clr-primary-1: #044462; */
@@ -31,7 +31,7 @@ Variables
   --clr-primary-4: #23ace7;
   /* --clr-primary-5: #55c1f0; */
   --clr-primary-6: #7ed4fb;
-  --clr-primary-7: #9bdefd;
+  /* --clr-primary-7: #9bdefd; */
   --clr-primary-8: #b6e4fc;
   --clr-primary-9: #d7f1fe;
   --clr-primary-10: #ebf8ff;
@@ -401,7 +401,7 @@ Hero
   object-fit: cover;
   border-radius: var(--radius);
   position: relative;
-  filter: sepia(90%) saturate(95%) hue-rotate(180deg);
+  filter: sepia(30%) saturate(80%) hue-rotate(180deg);
 }
 
 /*
