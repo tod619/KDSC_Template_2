@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="assests/styles/style.css" />
   </head>
   <body>
@@ -73,13 +74,13 @@
     <!-- Start: Hero -->
     <header class="hero">
       <div class="section-center hero-center">
-        <article class="hero-info">
+        <article class="hero-info" data-aos="fade-up">
           <div class="underline"></div>
           <h1>KDSC Services LTD</h1>
           <h4>Quantity Surveying & Safety Services</h4>
           <a href="#" class="btn hero-btn">Contact Us</a>
         </article>
-        <article class="hero-img">
+        <article class="hero-img" data-aos="fade-down">
           <!-- Photo by Mikael Blomkvist: https://www.pexels.com/photo/person-using-white-ipad-6476590/ -->
           <img
             src="assests/images/hero-image.jpg"
@@ -94,14 +95,14 @@
     <!-- Start: About -->
     <section class="section about">
       <div class="section-center about-center">
-        <article class="about-img">
+        <article class="about-img" data-aos="fade-down" data-aos-delay="1000">
           <img
             src="assests/images/about-image.jpg"
             alt="About Image"
             class="hero-photo"
           />
         </article>
-        <article class="about-info">
+        <article class="about-info" data-aos="fade-up">
           <!-- Start: Section title -->
           <div class="section-title about-title">
             <h2>About</h2>
@@ -142,7 +143,7 @@
       <!-- End: Section Title -->
       <div class="services-center section-center">
         <!-- Start: Training Card -->
-        <article class="service">
+        <article class="service" data-aos="fade-in" data-aos-delay="400">
           <i class="fa-solid fa-helmet-safety training-icon"></i>
           <h4>Health &amp; Safety</h4>
           <div class="underline"></div>
@@ -155,7 +156,7 @@
         <!-- End: Training Card -->
 
         <!-- Start: Training Card -->
-        <article class="service">
+        <article class="service" data-aos="fade-in" data-aos-delay="600">
           <i class="fa-solid fa-ruler training-icon"></i>
           <h4>Flexability</h4>
           <div class="underline"></div>
@@ -168,7 +169,7 @@
         <!-- End: Training Card -->
 
         <!-- Start: Training Card -->
-        <article class="service">
+        <article class="service" data-aos="fade-in" data-aos-delay="800">
           <i class="fa-solid fa-address-book training-icon"></i>
           <h4>Contact</h4>
           <div class="underline"></div>
@@ -192,7 +193,7 @@
       <!-- End: Section Title -->
       <div class="section-center projects-center">
         <!-- Start: Project Card -->
-        <div class="card">
+        <div class="card" data-aos="fade-in" data-aos-delay="800">
           <img src="assests/images/Data.jpg" alt="Data center image" />
           <div class="card-info">
             <h4>Data Center</h4>
@@ -216,7 +217,7 @@
         <!-- End: Project Card -->
 
         <!-- Start: Project Card -->
-        <div class="card">
+        <div class="card" data-aos="fade-in" data-aos-delay="600">
           <img src="assests/images/Pharma.jpg" alt="Data center image" />
           <div class="card-info">
             <h4>Pharmaceutical</h4>
@@ -240,7 +241,7 @@
         <!-- End: Project Card -->
 
         <!-- Start: Project Card -->
-        <div class="card">
+        <div class="card" data-aos="fade-in" data-aos-delay="400">
           <img
             src="assests/images/School_Hospital.jpg"
             alt="Data center image"
@@ -324,6 +325,7 @@
     <!-- End: Footer -->
 
     <!-- script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assests/scripts/script.js"></script>
   </body>
 </html>
